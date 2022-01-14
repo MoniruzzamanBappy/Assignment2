@@ -109,6 +109,11 @@ main {
     border-radius: 50%;
 }
 
+.start-img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
 /* website logo design */
 .website {
 
@@ -140,7 +145,8 @@ hr {
 
 /* Collection design */
 .popular {
-
+    display: flex;
+    justify-content: center;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -210,4 +216,64 @@ hr {
     margin-top: 30px;
     margin-right: 30px;
     color: #E02C6D;
+}
+
+/* bonus part */
+
+.special-part {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.special-part img {
+    width: 304px;
+    height: 210px;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+.bonus-details h2 {
+    color: #0A0826;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bonus-details p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.bonus-details a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    border: 1px solid #E02C6D;
+    padding: 5px;
+}
+
+/* ------------------------------
+        Footer section
+---------------------------------*/
+
+.footer-section {
+    margin-top: 100px;
+}
+
+.icon-container {
+    display: grid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0A0826;
+    color: white;
+}
+
+.icon i {
+    font-size: 20px;
+    padding: 5px;
 }
