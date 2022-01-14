@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+/* ============================
+    /*navigation Bar Desgn*\
+=============================== */
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.last-child>a {
+    font-size: 16px;
+    margin-left: 15px;
+    color: black;
+}
+
+.navbar ul li:hover {
+    border-bottom: 3px solid rgb(153, 147, 147);
+}
+
+
+
+/* start-journey design */
+.start-journey {
+    margin-bottom: 70px;
+
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.start-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start-h {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.start-p {
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.prebook {
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;
+    margin-top: 16px;
+    color: white;
+    border: 1px solid #E02C6D;
+}
+
+.start-img img {
+    width: 400px;
+    height: 374px;
+    border: 2px solid rgba(128, 128, 128, 0.116);
+    border-radius: 50%;
+}
+
+/* website logo design */
+.website {
+
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.web-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
+
+.web-container img {
+    Width: 36.64px;
+    Height: 18.17px;
+    margin-right: 66px;
+}
+
+hr {
+
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 1px;
+    background-color: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
+/* Collection design */
+.popular {
+
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.collection-h {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.collection {
+    width: 230px;
+    height: 330px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    background-color: white;
+    box-shadow: 0 0 20px 20px rgba(128, 128, 128, 0.116);
+}
+
+.collection img {
+    width: 200px;
+    height: 156px;
+
+    border-radius: 5px;
+}
+
+
+
+.collection-details h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+.fas {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.far {
+    font-size: 12px;
+}
+
+.available {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.see-more {
+    display: flex;
+    text-decoration: none;
+    justify-content: right;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: #E02C6D;
+}
